@@ -6,7 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :deploy do |deploy|
-  deploy.build_before = false # default: false
+  deploy.build_before = true # default: false
   deploy.method = :git
   # Optional Settings
   # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
