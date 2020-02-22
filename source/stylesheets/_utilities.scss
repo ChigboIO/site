@@ -1,0 +1,19 @@
+@import "variables.scss";
+
+.dark-overlay {
+  background-color: rgba(#000, 0.7);
+  height: 100%;
+  width: 100%;
+}
+
+.background-dark-grey {
+  background-color: rgba($background-dark-grey, 0.5);
+}
+
+.background-light-grey {
+  background-color: $background-light-grey;
+}
+
+.left-pane {
+  padding: 2.5em;
+}
