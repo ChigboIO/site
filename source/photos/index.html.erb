@@ -1,5 +1,17 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <div id="top-nav">
+    <nav>
+      <ul>
+        <li><a href="/">Resume</a></li>
+        <!-- <span class="separator"></span>
+        <li><a href="/blog">Blog</a></li> -->
+        <span class="separator"></span>
+        <li><a href="/photos" class="active">Photos</a></li>
+      </ul>
+    </nav>
+  </div>
+
   <a class="navbar-brand js-scroll-trigger" href="#page-top">
     <span class="d-block d-lg-none">Emmanuel Chigbo</span>
     <span class="d-none d-lg-block">
@@ -11,12 +23,22 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      <li>tags</li>
     </ul>
+  </div>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/chigboemmanuel">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/chigboio">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://twitter.com/Chigbo__">
+      <i class="fab fa-twitter"></i>
+    </a>
   </div>
 </nav>
 
-<div class="container">
+<div class="">
   <div id="photo-grid"  data-masonry='{ "itemSelector": ".grid-item" }'>
     <a href="https://source.unsplash.com/pP5x2sZ5IG0" class="grid-item">
       <%= image_tag "https://source.unsplash.com/pP5x2sZ5IG0" %>
