@@ -1,0 +1,12 @@
+.grid-item {
+  width: calc(100% / 3);
+  padding: 5px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.grid-item--width2 {
+  width: 400px;
+}

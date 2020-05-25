@@ -38,6 +38,7 @@ page '/*.txt', layout: false
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
+  blog.name = "blog"
 
   blog.permalink = "{title}" # Originally: "{year}/{month}/{day}/{title}"
   # Matcher for blog source files
