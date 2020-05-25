@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-  <div id="top-nav">
+  <div id="top-nav" class="d-none d-lg-block">
     <nav>
       <ul>
         <li><a href="/">Resume</a></li>
@@ -22,10 +22,22 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div id="top-nav" class="d-block d-lg-none">
+      <nav>
+        <ul>
+          <li><a href="/">Resume</a></li>
+          <!-- <span class="separator"></span>
+          <li><a href="/blog">Blog</a></li> -->
+          <span class="separator"></span>
+          <li><a href="/photos" class="active">Photos</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <ul class="navbar-nav">
     </ul>
   </div>
-  <div class="social-icons">
+  <div class="social-icons d-none d-lg-block">
     <a href="https://www.linkedin.com/in/chigboemmanuel">
       <i class="fab fa-linkedin-in"></i>
     </a>
