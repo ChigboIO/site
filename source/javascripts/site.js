@@ -25,4 +25,10 @@
     target: '#sideNav'
   });
 
+  $('#photo-grid').imagesLoaded( function() {
+    $('#photo-grid').masonry({
+      itemSelector: '.grid-item'
+    });
+  });
+
 })(jQuery); // End of use strict
