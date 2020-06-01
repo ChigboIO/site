@@ -69,13 +69,6 @@
     <script src="/vendor/jquery-easing/jquery.easing.min-bde98133.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="/javascripts/site-68f2ba85.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("#photo-grid").lightGallery({});
-        });
-    </script>
-
+    <script src="/javascripts/site-4907e6fc.js"></script>
   </body>
 </html>
