@@ -25,6 +25,8 @@
     target: '#sideNav'
   });
 
+  $("#photo-grid").lightGallery({});
+
   $('#photo-grid').imagesLoaded( function() {
     $('#photo-grid').masonry({
       itemSelector: '.grid-item'
