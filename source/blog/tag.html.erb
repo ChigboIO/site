@@ -1,7 +1,20 @@
 ---
+name: blog
+title: Blog
 pageable: true
 per_page: 12
 ---
+
+<% content_for :inner_nav do %>
+  <ul class="navbar-nav">
+    <% blog.tags.each do |tag_key, _tag| %>
+      <li class="nav-item">
+        <%= link_to tag_key, tag_path(tag_key), class: "nav-link js-scroll-trigger" %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
 <h1>Articles tagged '<%= tagname %>'</h1>
 
 <% if paginate && num_pages > 1 %>
