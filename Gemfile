@@ -7,7 +7,7 @@ gem 'middleman-blog'
 gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'redcarpet', '~> 3.5'
 gem 'nokogiri'
 
 gem 'pry'
