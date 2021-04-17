@@ -15,7 +15,9 @@
 }
 
 #top-nav {
-  background-color: $gray-700;
+  // background-color: $gray-700;
+  border-bottom: solid 2px $white;
+  padding: 10px 0;
   width: 100%;
   nav {
     ul {
@@ -50,6 +52,7 @@
 
 @media (min-width: 992px) {
   #sideNav {
+    padding: 0;
     text-align: center;
     position: fixed;
     top: 0;
